@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCart</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--Navbar-->
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><h3 class="h3">MyCart</h3></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Cart</a>
+              </li>
+            </ul>
+            <a class="btn btn-sm btn-primary fw-bold">Log in</a>
+          </div>
+        </div>
+      </nav>
+
+      <!--Photo Slider-->
+      <section id="ps">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/banner-1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/banner-2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/banner-3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </section>
+
+      <!--Products-->
+      <section id="product">
+        <div class="row p-5">
+            <div class="col text-center">
+                <p class="display-2">Products</p>
+                <p class="fs-4">Buy Best product from us with maximum discount</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card m-2">
+                        <img src="img/products/ac.jpg" class="card-top-image">
+                        <div class="card-body">
+                            <h3 class="h3">Electronics</h3>
+                            <span class="badge text-bg-danger">Buy 1 Get 5 Free</span>
+                            <a href="" class="btn btn-primary btn-sm d-block mt-2">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card m-2">
+                        <img src="img/products/bags.jpg" class="card-top-image">
+                        <div class="card-body">
+                            <h3 class="h3">Bags</h3>
+                            <span class="badge text-bg-danger">upto 70% off</span>
+                            <a href="" class="btn btn-primary btn-sm d-block mt-2">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card m-2">
+                        <img src="img/products/footware.jpg" class="card-top-image">
+                        <div class="card-body">
+                            <h3 class="h3">Footware</h3>
+                            <span class="badge text-bg-danger">Buy 1 Get 4 free</span>
+                            <a href="" class="btn btn-primary btn-sm d-block mt-2">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card m-2">
+                        <img src="img/products/furniture.jpg" class="card-top-image">
+                        <div class="card-body">
+                            <h3 class="h3">Furnitures</h3>
+                            <span class="badge text-bg-danger">buy 1 get 1 free</span>
+                            <a href="" class="btn btn-primary btn-sm d-block mt-2">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card m-2">
+                        <img src="img/products/laptop.jpg" class="card-top-image">
+                        <div class="card-body">
+                            <h3 class="h3">Laptops</h3>
+                            <span class="badge text-bg-danger">upto 60% off</span>
+                            <a href="" class="btn btn-primary btn-sm d-block mt-2">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card m-2">
+                        <img src="img/products/men_cloth.jpg" class="card-top-image">
+                        <div class="card-body">
+                            <h3 class="h3">Men-Clothing</h3>
+                            <span class="badge text-bg-danger">free</span>
+                            <a href="" class="btn btn-primary btn-sm d-block mt-2">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card m-2">
+                        <img src="img/products/watch.jpg" class="card-top-image">
+                        <div class="card-body">
+                            <h3 class="h3">Watches</h3>
+                            <span class="badge text-bg-danger">upto 55% off</span>
+                            <a href="" class="btn btn-primary btn-sm d-block mt-2">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card m-2">
+                        <img src="img/products/women_cloth.jpg" class="card-top-image">
+                        <div class="card-body">
+                            <h3 class="h3">Women-Cloths</h3>
+                            <span class="badge text-bg-danger">upto 99% off</span>
+                            <a href="" class="btn btn-primary btn-sm d-block mt-2">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!--Footer-->
+      <footer class="bg-primary p-5">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Address</h5>
+                <p>
+                    Near Agijalapadia,Gopalpur<br>
+                    Cuttack,Odisha<br>
+                    pin-753011<br>
+                </p>
+            </div>
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3738.759119735864!2d85.87948821390292!3d20.433991513193885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a190d459bdf0241%3A0x4413e57efee0c800!2sGOPALPUR!5e0!3m2!1sen!2sin!4v1665749955109!5m2!1sen!2sin" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+      </footer>
+
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>
